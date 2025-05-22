@@ -1,0 +1,142 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+}
+.about-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.about-title img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 300px;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.about-title h1 {
+  position: relative;
+  z-index: 1;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 40px;
+  margin: 0;
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 10px;
+}
+.about-sections {
+  display: flex;
+  gap: 80px;
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.about-left img {
+  width: 450px;
+  height: 700px;
+  border-radius: 50%;
+}
+.about-para {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.about-skill{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.about-skill p {
+  min-width: 150px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.about-skill hr {
+  outline: none;
+  border: none;
+  width: 50%;
+  height: 8px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #0ae0bd 0.36%, #2356e1 102.06%);
+
+}
+
+/* Achievements Section */
+.about-achievements {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 80px;
+}
+
+.about-achievement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: 0.5s;
+
+}
+
+.about-achievement h1 {
+  font-size: 60px;
+  font-weight: 700;
+  background: linear-gradient(270deg, #0ae0bd 10%, #2356e1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.about-achievement p {
+  font-size: 22px;
+  font-weight: 500;
+}
+.about-skill:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.about-achievement:hover{
+  transform: scale(1.12);
+  transition: 0.5s;
+}
+
